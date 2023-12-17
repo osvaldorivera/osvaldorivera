@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://osvaldorivera.github.io/index.html</loc>
+		<loc>https://osvaldorivera.com/index.html</loc>
 	</url>
 	<url>
-		<loc>https://osvaldorivera.github.io/portfolio/index.html</loc>
+		<loc>https://osvaldorivera.com/portfolio/index.html</loc>
 	</url>
 	<url>
-		<loc>https://osvaldorivera.github.io/newsletter/index.html</loc>
+		<loc>https://osvaldorivera.com/newsletter/index.html</loc>
+	</url>
+	<url>
+		<loc>https://osvaldorivera.com/linktree/index.html</loc>
 	</url>
 </urlset>
