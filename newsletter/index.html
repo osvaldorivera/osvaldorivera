@@ -18,22 +18,92 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@ossielaciencia">
 	<meta name="twitter:creator" content="@ossielaciencia">
-	<meta name="twitter:title" content="Newsletter | Osvaldo Rivera, PhD">
+	<meta name="twitter:title" content="Newsletters | Osvaldo Rivera, PhD">
 	<meta name="twitter:image" content="https://osvaldorivera.com/resources/osvaldo_aipic_circ.png">
 	<meta name="twitter:url" content="https://osvaldorivera.com/newsletter/index.html">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Osvaldo Rivera, PhD">
-	<meta property="og:title" content="Newsletter | Osvaldo Rivera, PhD">
+	<meta property="og:title" content="Newsletters | Osvaldo Rivera, PhD">
 	<meta property="og:image" content="https://osvaldorivera.com/resources/osvaldo_aipic_circ.png">
 	<meta property="og:url" content="https://osvaldorivera.com/newsletter/index.html"> 
 
 	<!-- Meta tags -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
-	<title>Newsletter | Osvaldo Rivera, PhD</title>
-	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Artful/consolidated.css?rwcache=724745133" />
+	<title>Newsletters | Osvaldo Rivera, PhD</title>
+	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Artful/consolidated-11.css?rwcache=725745601" />
 		
-	    
+	  <style type="text/css" media="all">/* Basic styling */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  }
+
+.zoom-button {
+  display: inline-block;
+  width: 100%;
+  height: 333px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  opacity: 0;
+  transition: opacity 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-text {
+  font-size: 24px;
+  color: #fff;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.3s, opacity 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.button-text-df {
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.7); /* 50% black alpha */
+    padding: 10px;
+  color: #fff;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.3s, opacity 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+/* Zoom effect on hover */
+.zoom-button:hover {
+  transform: scale(1.1);
+}
+
+.zoom-button:hover .overlay {
+  opacity: 1;
+}
+
+.zoom-button:hover .button-text {
+  transform: scale(1.2); /* Scale text on hover */
+}
+
+</style>  
 </head>
 
 <!-- This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com -->
@@ -43,14 +113,14 @@
 		<div class="container">
             <a class="navbar-brand" href="https://osvaldorivera.com/">
                 <div class="logo"><img src="../rw_common/images/logo.png" width="120" height="119" alt="os"/></div>
-                <span class="navbar-title">Osvaldo Rivera, PhD</span>
+                <span class="navbar-title"> </span>
             </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
 			 aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto"><li class="nav-item"><a href="../" rel="" class="nav-link">Os.</a></li><li class="nav-item has-dropdown"><a href="../portfolio/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a><ul class="navbar-nav ml-auto"><li class="nav-item"><a href="https://ozcorp.io/" target="_blank" class="nav-link">Ozcorp Scientific</a></li><li class="nav-item"><a href="https://riveraomics.org" target="_blank" class="nav-link">RIVERA-OMICS</a></li><li class="nav-item"><a href="https://riverainc.org" rel="" class="nav-link">RIVERA Initiatives</a></li></ul></li><li class="nav-item"><a href="https://github.com/osvaldorivera" rel="" class="nav-link">Github</a></li><li class="nav-item active"><a href="./" rel="" class="nav-link">Newsletter</a></li><li class="nav-item"><a href="../linktree/" rel="" class="nav-link">Linktree</a></li></ul>
+				<ul class="navbar-nav ml-auto"><li class="nav-item"><a href="../" rel="" class="nav-link">Os.</a></li><li class="nav-item has-dropdown"><a href="../portfolio/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a><ul class="navbar-nav ml-auto"><li class="nav-item"><a href="https://ozcorp.io/" target="_blank" class="nav-link">Ozcorp Scientific</a></li><li class="nav-item"><a href="https://riveraomics.org" target="_blank" class="nav-link">RIVERA-OMICS</a></li><li class="nav-item"><a href="https://riverainc.org" rel="" class="nav-link">RIVERA Initiatives</a></li></ul></li><li class="nav-item"><a href="https://github.com/osvaldorivera" rel="" class="nav-link">Github</a></li><li class="nav-item active"><a href="./" rel="" class="nav-link">Newsletters</a></li><li class="nav-item"><a href="../linktree/" rel="" class="nav-link">Linktree</a></li></ul>
 			</div>
 		</div>
 	</nav>
@@ -59,10 +129,10 @@
 			<div class="row align-items-center justify-content-center">
 				<div class="col-sm-6 align-self-center">
 					<h1 class="hero-title mb-4">
-						Osvaldo Rivera, PhD
+						 
 					</h1>
 					<p class="lead hero-slogan">
-						Creating value for biotech. <br> <span  style="font-weight: bold;" > <a href=/portfolio target="_blank"> > Explore my Portfolio < </a>  <br> <a href=https://www.linkedin.com/in/osvaldoriveraphd/ target="_blank"> > Add me on LinkedIn < </a> </span>  <br> Scroll down to learn more.
+						 
 					</p>
 				</div>
 				<div class="col-sm-6">
@@ -76,10 +146,71 @@
 
 	<div class="container pt-5">
         <div class="row intro justify-content-between">
-            <div class="col-sm-6">
-                <meta http-equiv="refresh" content="0;url=https://www.linkedin.com/newsletters/biodyssey-7136231615654965248/">
+            <div class="col-sm-12">
+                <style>
+    .navbar.navbar-expand-lg {
+        margin-bottom: 22px !important;
+    }
+</style>
+
+<h1 id="biodessey">Biodessey</h1>
+
+<hr />
+
+<p>Written in a tone of professional and poetic reverence, Biodessy serves to narrate intricate pathways of biotechnological innovation, research, and application. Embark on a journey with me as I explore the ever-evolving landscape of biotechnology, and join the discourse that delves into the technical intricacies and complexities of cutting-edge research and processes that shape the future of biotech. </p>
+
+<div class="button-container">
+<a href="https://www.linkedin.com/newsletters/biodyssey-7136231615654965248/" target="_blank" class="zoom-button" style="background-image: url('../resources/_1b1b2084-c535-42b3-8d3a-c6fcfcc3ec53.jpeg');">
+<h2 class="button-text-df">Published Monthly <br> on LinkedIn</h2>
+<div class="overlay" style="background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5));">
+<h2 class="button-text">Read</span>
+</div> </a></div>
+
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br></p>
+
+<h1 id="fromlabtomarket">From Lab to Market</h1>
+
+<hr />
+
+<p>Written in highly technical language, &quot;<em>From Lab to Market</em>&quot; is a student-driven biotech blog tracking the journey of scientific innovations into real-world markets. We dissect the transition process from lab breakthroughs to commercial success, exploring challenges, success stories, and industry insights. Dive into the intersection of science and commerce with our expert analyses and captivating case studies.</p>
+
+<div class="button-container">
+<a href="https://riveraomics.org/blog/" target="_blank" class="zoom-button" style="background-image: url('../resources/photo-1607893407846-49905270209e.jpg');">
+<h2 class="button-text-df">Published <br> by RIVERA-OMICS</h2>
+<div class="overlay" style="background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5));">
+<h2 class="button-text">Read</span>
+</div> </a></div>
+
+<p><br>
+<br>
+<br>
+<br>
+<br>
+<br></p>
+
+<h1 id="trends">Trends</h1>
+
+<hr />
+
+<p>Comming soon.</p>
+
+<div class="button-container">
+<a href="https://ozcorp.io/trends/" target="_blank" class="zoom-button" style="background-image: url('../resources/market_development.002.jpeg');">
+<h2 class="button-text-df">Published Weekly <br> by Ozcorp Scientific</h2>
+<div class="overlay" style="background: linear-gradient(rgba(0, 255, 0, 0.5), rgba(0, 0, 0, 0.5));">
+<h2 class="button-text">Read</span>
+</div> </a></div>
+
+<p><br>
+<br>
+<br> </p>
             </div>
-            <div class="sidebar col-sm-6 order-md-8">
+            <div class="sidebar col-sm-0 order-md-8">
                 <h2 class="sidebar-title">
                     
                 </h2>
@@ -97,14 +228,14 @@
 						&copy; 2023 Osvaldo D. Rivera, PhD  <br> <span span style="font-size: 14px;">Website designed by <a href=https://ozcorp.io target="_blank"> Ozcorp Scientific LLC </a> </span>
 					</div>
 
-					<ul class="navbar-nav ml-auto"><li class="nav-item"><a href="../" rel="" class="nav-link">Os.</a></li><li class="nav-item has-dropdown"><a href="../portfolio/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a></li><li class="nav-item"><a href="https://github.com/osvaldorivera" rel="" class="nav-link">Github</a></li><li class="nav-item active"><a href="./" rel="" class="nav-link">Newsletter</a></li><li class="nav-item"><a href="../linktree/" rel="" class="nav-link">Linktree</a></li></ul>
+					<ul class="navbar-nav ml-auto"><li class="nav-item"><a href="../" rel="" class="nav-link">Os.</a></li><li class="nav-item has-dropdown"><a href="../portfolio/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Portfolio</a></li><li class="nav-item"><a href="https://github.com/osvaldorivera" rel="" class="nav-link">Github</a></li><li class="nav-item active"><a href="./" rel="" class="nav-link">Newsletters</a></li><li class="nav-item"><a href="../linktree/" rel="" class="nav-link">Linktree</a></li></ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="../rw_common/themes/Artful/js/main.js?rwcache=724745133"></script>
-<rapidweaver-badge url="https://ozcorp.io/meet" position-x="right" position-y="bottom" transition="slide" delay-type="time" delay="300" mode="light" target="_blank"><img src= "../rw_common/assets/logo_icon.png" alt="Oscorp Icon" /><p>Let's Talk Biotech!</p></rapidweaver-badge>
-<script src="../rw_common/assets/rw-badge.js?rwcache=724745133"></script>
+	<script type="text/javascript" src="../rw_common/themes/Artful/js/main.js?rwcache=725745601"></script>
+<rapidweaver-badge url="https://ozcorp.io/meet" position-x="right" position-y="bottom" transition="slide" delay-type="time" delay="300" mode="light" target="_blank"><img src= "../rw_common/assets/ozco_logo.png" alt="Oscorp Icon" /><p>Let's Talk Biotech!</p></rapidweaver-badge>
+<script src="../rw_common/assets/rw-badge.js?rwcache=725745601"></script>
 </body>
 
 </html>
