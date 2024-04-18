@@ -9,9 +9,8 @@
 		<meta name="robots" content="index, follow" />
 		<meta name="generator" content="RapidWeaver" />
 		<link rel="apple-touch-icon" sizes="167x167" href="https://osvaldorivera.com/resources/medium.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="https://osvaldorivera.com/resources/logo.png" />
 <link rel="apple-touch-icon" sizes="152x152" href="https://osvaldorivera.com/resources/small.png" />
-<link rel="mask-icon" href="https://osvaldorivera.com/resources/logo.png" color="rgba(255,255,255,1.00)" /><link rel="icon" type="image/png" href="https://osvaldorivera.com/resources/favicon_medium.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://osvaldorivera.com/resources/favicon_medium.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="https://osvaldorivera.com/resources/favicon_small.png" sizes="16x16" />
 <link rel="icon" type="image/png" href="https://osvaldorivera.com/resources/favicon_large.png" sizes="64x64" />
 
@@ -31,11 +30,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
 	<title>Os. | Osvaldo Rivera, PhD</title>
-	<link rel="stylesheet" type="text/css" media="all" href="rw_common/themes/Artful/consolidated-1.css?rwcache=732912703" />
+	<link rel="stylesheet" type="text/css" media="all" href="rw_common/themes/Artful/consolidated-1.css?rwcache=735094687" />
 		
 	  <style type="text/css" media="all">.hero-title {
 	font-size: 40px;
-}</style>  
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#scheduleButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#scheduleButton:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+</style>  
 </head>
 
 <!-- This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com -->
@@ -44,7 +68,7 @@
 	<nav class="navbar navbar-expand-lg">
 		<div class="container">
             <a class="navbar-brand" href="https://osvaldorivera.com/">
-                <div class="logo"><img src="rw_common/images/logo.png" width="120" height="119" alt="os"/></div>
+                <div class="logo"><img src="rw_common/images/oslogo.png" width="120" height="119" alt="os"/></div>
                 <span class="navbar-title">Osvaldo Rivera, PhD</span>
             </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -79,32 +103,28 @@
 	<div class="container pt-5">
         <div class="row intro justify-content-between">
             <div class="col-sm-6">
-                <h3 id="whoiam">Who I am</h3>
+                <h3 id="whoiam:">Who I am:</h3>
 
-<p>I’m a Scientist with 11+ years of experience in combined wetlab and drylab molecular biology research. For the past 7 years I’ve focused on RNA research. Throughout my PhD training and early career I’ve worked closely with wetlab scientists to write code for the processing, analysis and visualization of transcriptomics data. I’ve recently contributed to the development of <a href="https://www.businesswire.com/news/home/20230131005215/en/Eclipsebio-Launches-eRibo%E2%84%A2-for-Improved-Methods-to-Profile-Protein-Translation-Technology-Details-Will-Be-Presented-at-Keystone-Symposia">eRibo</a>, an eCLIP-based RNAseq technology used to study ribosome occupancy in conjunction with alternative RNA splicing patterns.</p>
-
-<p>During my PhD training at the <a href="https://www.med.upenn.edu/camb/">University of Pennsylvania</a>, I also became immersed in the thriving environment of biotech commercialization taking place at the <a href="https://sciencecenter.org/">UCity Science Center</a> and <a href="https://pennovation.upenn.edu/pennovation-center">Pennovation</a>. I've sought to stay in touch with the scientific portion of biotech R&amp;D while also contributing to the commericalization of science, and working with sales and marketing teams to pitch genomics solutions to prospective clients. I’m actively looking for opportunities in biotech business development to enhance my industry rolodex.</p>
+<p>I’m a Scientist with 12+ years of experience in combined wetlab and drylab molecular biology research. I've worked in multiple fields spanning cancer biology, genomics, proteomics, enzymology, and nanotechnology. For the past 8 years I’ve focused on RNA biology research, particularly in the context of RNA processing dysregulation and RNA-based therapeutics. Throughout my PhD training at the <a href="https://www.med.upenn.edu/camb/">UPenn Perelman School of Medicine Biomedical Graduate Group</a> and continuing into my industry career, I’ve worked closely with wetlab scientists to write code for the processing, analysis, visualization and interpretation of complex biological data. During my training, I have also immersed myself in biotech commercialization procedures, contributing to scientific teams briging early-stage techologies to market. I've worked within commercialization hubs such as the <a href="https://sciencecenter.org/">UCity Science Center</a>, <a href="https://pennovation.upenn.edu/pennovation-center">Pennovation</a>, and more recently the <a href="https://prsciencetrust.org/">Puerto Rico Science and Technology Trust</a>. Overall, I've sought to stay in touch with the deeply scientific aspects of biotech R&amp;D while also enabling strategic pathways to commericalization; I'm passionate about merging science and business.</p>
 
 <hr />
 
-<h3 id="whatiamupto">What I am up to</h3>
+<h3 id="whatiamupto:">What I am up to:</h3>
 
-<blockquote>
-<p>Working to enable biotech in Puerto Rico.</p>
-</blockquote>
+<blockquote>Working to enable biotech in Puerto Rico.</blockquote>
 
-<p>As an independent scientist, I’m building bioinformatics research initiatives to further elucidate and leverage RNA regulatory patterns in oncogenicity, metabolic pathways, and degenerative disease. <strong><a href="/portfolio">I'm currently establishing, the OMICS Group, a new academic lab in San Juan, Puerto Rico</a></strong>, which focuses on decoding biology through computational methods that integrate multi-level omics data.</p>
+<p>Firstly, <strong><a href="/portfolio">I've been building Ozcorp Scientific, a private sole-prop technology firm to undertake the establishment of new biotech ventures, empower lean business models, deliver tools to the market, and invest in the most promising ideas</a></strong>. In other words, through Ozcorp I capitalize and systematize my venture work and help scientific teams develop their biotech business and commercialize technologies. Since graduate school, I identified the need for an entity to help emerging biotech companies with process implementation, product development, and operations management while the founding scientists focus on what they do best: refining the science.</p>
 
-<p>Furthermore, <strong><a href="/portfolio">I've recently started building a startup business to empower biolabs studying disease with bioinformatics capabilities</a></strong> by contributing to the implementation of data processing pipelines as well as pushing scientific projects through custom analyses. The business currently focuses on providing products and services related to genomics research, but is expanding to include molecular dynamics research products. </p>
+<p>Furthermore, <strong><a href="/portfolio">I've recently started building GENOS, a startup business to empower biolabs with bioinformatics capabilities</a></strong> by contributing to the implementation of data processing pipelines as well as pushing scientific projects through custom analyses. I decided to venture on building GENOS after having encountered several unmet needs in the sphere of experimental biology. GENOS envisions executing upon transformative collaborations to ultimately drive biotechnological progress and adoption across fields such as genomics, transcriptomics, proteomics, and molecular dynamics. Lots of investigators have backed up data that they wish to analyze, and are seeking cost-effective and timely solutions without the need to switch gears and learn new frameworks.</p>
 
-<p>Finally, to capitalize and systematize my work <strong><a href="/portfolio">I've been building Ozcorp Scientific LLC, a private initiative to help scientific teams develop their biotech business and commercialize technologies</a></strong>. Since graduate school I identified the need for an entity to help biotech venture teams with process implementation, product development, and operations management while scientists focus on what they do best: refining the science.</p>
+<p>Finally, I’m still involved in academia. I’m Principal Investigator at <strong><a href="/portfolio">RIVERA-OMICS</a></strong>, an academic initiative aimed at elucidating biological mechanisms leveraging omics data and exploring the commercialization landscape of biotechnologies. Specifically, RIVERA-OMICS is a branch of <strong><a href="/portfolio">RIVERA Initiatives Inc.</a></strong>, a newly established 501(c)(3) organization being built to empower talented students through comprehensive resources and collaborative research endeavors. Through RIVERA, I mentor students in scientific topics, methods, and industry techniques, training them to develop unique research projects. Additionally, I establish liaisons with academic labs and enterprises to enhance the learning experience and career development of my students.</p>
             </div>
             <div class="sidebar col-sm-6 order-md-8">
                 <h2 class="sidebar-title">
                     
                 </h2>
 
-                <img src="https://images.unsplash.com/photo-1568515363429-43e5bd1f8b94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMzI0OXwwfDF8c2VhcmNofDMzfHxwdWVydG8lMjByaWNvfGVufDB8fHx8MTY4OTg3NTM1NXww&ixlib=rb-4.0.3&q=80&w=1080" class="mb-5" /><br /><br />Born and raised in the heart of Puerto Rico, I have been deeply immersed in the island's enchanting culture, vibrant traditions, and warm community spirit. From a young age, I felt a strong connection to the land and its people, instilling in me a profound sense of responsibility towards its growth and development. As I matured, I discovered my true calling in the biotechnology field, recognizing the immense potential it held for transforming Puerto Rico's future. Driven by a burning desire to contribute to my homeland, I set out on a mission to enable biotech in Puerto Rico, believing that by fostering this cutting-edge industry, we can not only create economic opportunities but also advance healthcare, agriculture, industrializaiton, and environmental sustainability for generations to come.<br /><br />My journey in the biotech arena has been one of perseverance and determination. Recognizing the unique challenges faced by the island, I have committed myself to bridging the gap between innovation and practicality, seeking collaborations with local universities, entrepreneurs, and governmental institutions. Therefore,  I have sought to <span style="font-weight: bold"> <a href=/portfolio target="_blank">create an ecosystem that nurtured biotech startups, research initiatives, partnerships, and talent development. </a> </span><br /><br />Through tireless efforts, I am seeking to attract investments and forge partnerships, showcasing Puerto Rico as a thriving hub for biotech advancements. As I continue to work passionately towards this endeavor, my ultimate vision is to witness Puerto Rico at the forefront of biotechnology, making groundbreaking discoveries that benefit both the island and the world beyond.<br /><br />For more information, explore my <span style="font-weight: bold"> <a href=/portfolio target="_blank">  PROJECT PORFOLIO </a> </span><br /> 
+                <img src="https://images.unsplash.com/photo-1568515363429-43e5bd1f8b94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMzI0OXwwfDF8c2VhcmNofDMzfHxwdWVydG8lMjByaWNvfGVufDB8fHx8MTY4OTg3NTM1NXww&ixlib=rb-4.0.3&q=80&w=1080" class="mb-5" /><br /><br />Born and raised in the heart of Puerto Rico, I have been deeply immersed in the island's enchanting culture, vibrant traditions, and warm community spirit. From a young age, I felt a strong connection to the land and its people, instilling in me a profound sense of responsibility towards its growth and development. As I matured, I discovered my true calling in the biotechnology field, recognizing the immense potential it held for transforming Puerto Rico's future. Driven by a burning desire to contribute to my homeland, I set out on a mission to enable biotech in Puerto Rico, believing that by fostering this cutting-edge industry, we can not only create economic opportunities but also advance healthcare, agriculture, industrializaiton, and environmental sustainability for generations to come.<br /><blockquote>I wish to witness Puerto Rico at the forefront of technology.</blockquote><br />My journey in the biotech arena has been one of perseverance and determination. Recognizing the unique challenges faced by the island, I have committed myself to bridging the gap between innovation and practicality, seeking collaborations with local universities, entrepreneurs, and governmental institutions. Therefore,  I have sought to create an ecosystem of initiatives to nurture tech startups, academic research initiatives, industry partnerships, and talent development.<br /><br />Through tireless efforts, I continuosly seek to attract investments and forge new alliances, showcasing Puerto Rico as a thriving hub for deep tech advancements, promoting groundbreaking discoveries that benefit both the island and the world beyond.<br /><br /><p style="float: right"> With boundless enthusiasm,</p><br><br /><img src="resources/oslogo.png" style="width: 77px; height: 77px; float: right; margin-top: -33px;" alt="OS Logo"><br /><br /><hr><br /><p style="text-align: center;;"> For more information, </p><div class="button-container"><br />  <a href="/portfolio" target="_blank" id="scheduleButton">explore my project portfolio</a></div> 
             </div>
         </div>
 	</div>
@@ -114,7 +134,7 @@
 			<div class="row justify-content-start">
 				<div class="col">
 					<div class="footer-content">
-						2023 - 2024 &copy; Osvaldo D. Rivera, PhD  <br> <span span style="font-size: 14px;">Website designed by <a href=https://ozcorp.io target="_blank"> Ozcorp Scientific LLC </a> </span>
+						2023 - 2024 &copy; osvaldorivera.com  <br> <span span style="font-size: 14px;">Website designed by <a href=https://ozcorp.io target="_blank"> Ozcorp Scientific LLC </a> </span>
 					</div>
 
 					<ul class="navbar-nav ml-auto"><li class="nav-item active"><a href="./" rel="" class="nav-link">Os.</a></li><li class="nav-item"><a href="portfolio/" rel="" class="nav-link">Portfolio</a></li><li class="nav-item"><a href="https://github.com/osvaldorivera" target="_blank" class="nav-link">Github</a></li><li class="nav-item"><a href="newsletter/" rel="" class="nav-link">Publications</a></li><li class="nav-item"><a href="linktree/" rel="" class="nav-link">Linktree</a></li></ul>
@@ -122,9 +142,9 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="rw_common/themes/Artful/js/main.js?rwcache=732912703"></script>
-<rapidweaver-badge url="https://ozcorp.io/meet" position-x="right" position-y="bottom" transition="slide" delay-type="time" delay="300" mode="light" target="_blank"><img src= "rw_common/assets/ozco_logo.png" alt="Oscorp Icon" /><p>Let's Talk Biotech!</p></rapidweaver-badge>
-<script src="rw_common/assets/rw-badge.js?rwcache=732912703"></script>
+	<script type="text/javascript" src="rw_common/themes/Artful/js/main.js?rwcache=735094687"></script>
+<rapidweaver-badge url="https://ozcorp.io/meet" position-x="right" position-y="bottom" transition="slide" delay-type="time" delay="300" mode="light" target="_blank"><img src= "rw_common/assets/ozco_logo.png" alt="Ozcorp" /><p>Let's Talk Biotech!</p></rapidweaver-badge>
+<script src="rw_common/assets/rw-badge.js?rwcache=735094687"></script>
 </body>
 
 </html>
